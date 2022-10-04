@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css2?family=Share+Tech+Mono&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Share+Tech&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+:root{
+    --main-bg-color: #2f3640;
+    --font1: 'Share Tech Mono', monospace;
+    --font2:    'Share Tech', sans-serif;
+   --font3:'Roboto', sans-serif;
+}
+.font1{
+    font-family: var(--font1);
+}
+.font2{
+    font-family: var( --font2);
+}
+.font3{
+    font-family: var(--font3);
+}
+.m-auto{
+    margin: auto;
+}
+/* m2{
+    margin-bottom: 25px;
+    margin-top: 25px;
+} */
+.max-width4{
+    width: 80vw;
+}
+.max-width-1{
+    max-width: 85vw;
+
+}
+.max-width-2{
+    max-width: 75vw;
+}
+.max-width-3{
+    max-width: 72.2vw;
+}
+.btn{
+    /* height:auto;
+    width: auto; */
+    margin-right: 25px;
+   padding: 6px 6x;
+    border: 2px solid #2f3640;
+    border-radius: 2px;
+    font-family: var(--font2);
+    font-size: 18px;
+    transition: all 0.5s ease-in-out;
+    cursor: pointer;
+    align-items:center;
+}
+.btn:hover{
+    color:#2f3640;
+    background: #e84118;
+}
+.form-input{
+   
+   color: #2f3640;
+    font-family: var(--font2);
+    height: 22px;
+    width: 180px;
+    padding: 3px 3px;
+    /* padding: 30px 40px; */
+    font-size: 17px;
+    border: 2px solid #2f3640;
+    align-items: center;
+    border-radius: 2px;
+    margin: 03px;
+    font-family:vart(--font3);
+
+}
+.from-box select,option{
+    box-shadow: 7PX 7PX 7PX #2f3640;
+    border-radius: 4px;
+   color: #2f3640;
+    width:61vw;
+background-color: white;
+    padding:10PX 6PX ;
+    font-size: 18px;
+    MARGIN :7PX;
+    font-family: var(--font2);
+    cursor:pointer;
+    border: 2px solid #2f3640;
+}
+.from-box input,textarea{
+    border-radius: 4px;
+    box-shadow: 7PX 7PX 7PX #2f3640;
+    
+   color: #2f3640;
+    font-family: var(--font2);
+    font-size:18px;
+    width:60vw;
+    padding: 10px 6px;
+    margin:7px;
+    border: 2px solid #2f3640;
+    border-radius: 5px;
+    
+}
+
+.btn1{
+    /* float: inline-end; */
+    align-self: center;
+    height:25px;
+    width: 100px;
+    margin-left: 6px;
+   padding: 6px 6x;
+   padding-left: 0px;
+    border: 2px solid #2f3640;
+    border-radius: 2px;
+    font-family: var(--font2);
+    font-size: 18px;
+    transition: all 0.5s ease-in-out;
+    cursor: pointer;
+    margin-bottom: 30px;
+ 
+}
+
+.btn1:hover{
+    margin-top: 7px;
+    color:#e84118;
+        background: #2f3640;}
+

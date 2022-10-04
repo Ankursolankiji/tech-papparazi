@@ -1,0 +1,130 @@
+.about::before{
+    content:"";
+    background-image: url('../img/about.png');
+   
+    overflow: hidden;
+    position: absolute;
+    top:0;
+    background-position: center;
+    width: 100%;
+    height: 100%;
+    opacity: 0.3;
+    display: inline-block;
+    z-index: -1;
+}/*
+.about{
+    
+    /* overflow: hidden; */
+    /* align-items: center; 
+    height:auto;
+    /* position:relative; 
+    border-top: 2px solid #2f3640;
+    text-align: center;
+    /* padding: 20px; */
+    /* height: 80vw; 
+}*/
+.about{
+    /* text-align: center; */
+    border-top: 2px solid #2f3640;
+    position: relative;
+}
+.heading h2{
+
+    text-align: center;
+    padding: 45px 0px;
+    font-family: var(--font2);
+    color:  #2f3640 ;
+}
+.aboutus h3{
+    text-align: center;
+    font-family: var(--font2);
+    padding: 0px 0px 20px 0px;
+}
+
+.aboutus img{
+    margin: 20px;
+    /* padding: 2px; */
+    box-shadow: 10px 10px 10px #2f3640;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    align-self: center;
+    border-radius: 50%;
+    width:30vw;
+}
+.social-links a{
+    display: inline-block;
+    height: 40px;
+    width: 40px;
+    border: 1px solid #2f3640;
+    background-color: rgba(255, 255, 255, 0.27);
+    margin-right:0 10px 10px 0;
+    text-align: center;
+    line-height:40px;
+    border-radius: 50%;
+    color:#2f3640;
+    transition: all 0.5s ease;
+    margin-bottom: 20px;
+  }
+   .social-links a:hover{
+       border:none;
+    color:white;
+    background-color: #e84118;
+    height: 43px;
+    width: 43px;
+     font-weight: bolder;
+  }
+  .aboutus-content{
+      text-align: center;
+    align-items: center;
+    justify-content: center;
+      /* display: flex; */
+
+  }
+  .about-one{
+     
+      justify-content: center;
+      align-items: center;
+      width: 75vw;
+      /* display: flex; */
+      /* flex-direction: ; */
+      /* flex-direction: column; */
+  }
+
+  .aboutus-box{
+      display: flex;
+  }
+  .overlay {
+    font-family: var(--font2);
+    position: relative;
+     top: 0;
+    /* bottom: 0;
+    left: 0;
+    right: 0; */
+    height: 100%;
+    width: inherit;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: #e84118;
+  }
+  
+ 
+  
+  .text {
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;}
+.about p{
+    padding: 10px;
+    font-family: var(--font2);
+}
+.about h4{
+    padding: 10px;
+    font-family: var(--font2);
+}
